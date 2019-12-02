@@ -1,0 +1,18 @@
+{
+  	"author": {
+		"name": "Anton Lebedev @antoinedze"
+  	},
+	"bugs": {
+		"url": "https://github.com/antoinedze/jfactory-string/issues"
+	},
+	"description": "JFactory String class extending built-in String class",
+	"homepage": "https://github.com/antoinedze/jfactory-string",
+	"license": "MIT",
+	"main": "index.js",
+	"name": "jfactory-string",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/antoinedze/jfactory-string.git"
+	},
+	"version": "1.0.0"
+}
