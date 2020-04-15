@@ -3,25 +3,25 @@
     "name": "Anton Lebedev @antoinedze"
   },
   "bugs": {
-    "url": "https://github.com/wf-team/npm-string/issues"
+    "url": "https://github.com/jfxteam/np-string/issues"
   },
   "description": "JavaScript String class extending built-in String class",
-  "homepage": "https://github.com/wf-team/npm-string",
+  "homepage": "https://github.com/jfxteam/np-string",
   "license": "MIT",
   "main": "index.js",
-  "name": "@wf-team/string",
+  "name": "@jfxteam/string",
   "scripts": {
     "deploy": "npm i add-dependencies -g && npm i npm-check-updates -g",
-    "fix-start": "ncu -u -n \"/^@wf-team.*$/\" && npm --no-git-tag-version version pre%fix-type% && npm publish",
-    "fix": "ncu -u -n \"/^@wf-team.*$/\" && npm --no-git-tag-version version prerelease && npm publish",
-    "fix-end": "ncu -u \"/^@wf-team.*$/\" && npm --no-git-tag-version version %fix-type% && npm publish"
+    "fix-start": "ncu -u -n \"/^@jfxteam.*$/\" && npm --no-git-tag-version version pre%fix-type% && npm publish",
+    "fix": "ncu -u -n \"/^@jfxteam.*$/\" && npm --no-git-tag-version version prerelease && npm publish",
+    "fix-end": "ncu -u \"/^@jfxteam.*$/\" && npm --no-git-tag-version version %fix-type% && npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wf-team/npm-string.git"
+    "url": "git+https://github.com/jfxteam/np-string.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/wf-team"
+    "registry": "https://npm.pkg.github.com/jfxteam"
   },
-  "version": "0.0.1-0"
+  "version": "0.0.1-1"
 }
